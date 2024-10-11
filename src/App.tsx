@@ -118,7 +118,7 @@ const App: React.FC = () => {
           <h2 className="text-4xl font-bold mb-6 font-display">Be a Group Night Out Pioneer</h2>
           <p className="text-xl mb-10 max-w-2xl mx-auto">Get exclusive early access and be the first to revolutionize your group nights out. The future of partying with friends starts with you!</p>
           <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
-            <div className="flex space-x-4">
+            <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0">
               <input
                 type="email"
                 placeholder="Your email address"
