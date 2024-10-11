@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-white;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-2 rounded-full font-semibold transition-all duration-300 transform hover:scale-105;
+  }
+  .btn-primary {
+    @apply bg-purple-600 text-white hover:bg-purple-700 shadow-lg;
+  }
+}
+
+.font-display {
+  font-family: 'Poppins', sans-serif;
+}
